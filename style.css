@@ -1,0 +1,39 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#group-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.card {
+  flex: 1 1 300px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #1077c3;
+  background-color: #49bce3;
+  border-radius: 15px;
+}
+
+.match-container {
+  margin-top: 10px;
+  background-color: #56042c;
+  border-radius: 15px;
+  color: white;
+  padding: 5px 0px;
+  text-align: center;
+}
+
+button {
+  background-color: #fec310;
+  color: black;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+  margin: 5px;
+}
